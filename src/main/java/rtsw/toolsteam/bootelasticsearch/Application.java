@@ -49,5 +49,8 @@ public class Application implements CommandLineRunner{
         
         List<Vehicle> models =service.getByModel("Avalon");
         log.info("Avalon models found: "+models);
+        
+        List<Vehicle> years =service.getByYear(2007);
+        log.info("2007 vehicles found: "+years);
     }
 }
