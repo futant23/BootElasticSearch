@@ -10,7 +10,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
 
 /**
  *
- * @author b1050502
+ * @author 
  */
 public interface VehicleRepository extends ElasticsearchRepository<Vehicle, Long>{
     
